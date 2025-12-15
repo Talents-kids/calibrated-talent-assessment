@@ -1,0 +1,5 @@
+model,predictions,correlation,mae,rmse,r2_score,unique_analyses,unique_children,unique_categories
+gemini-2.5-flash-preview-04-17,9,1.0000,0.0000,0.0000,1.0000,9,9,129
+gemini-2.5-flash-preview-05-20,4048,0.9999,0.0012,0.0333,0.9998,4048,470,129
+gemini-2.5-flash,7187,0.9997,0.0023,0.0553,0.9994,7187,470,129
+gemini-2.5-flash-lite,102,0.9863,0.0245,0.1485,0.9729,102,98,129

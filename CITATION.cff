@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+authors:
+  - family-names: Sergeev
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0008-2958-4595"
+    affiliation: "Talents.Kids, TEMNIKOVA LDA"
+    email: ds@talents.kids
+title: "Multimodal Talent Discovery in Children Using Calibrated Baselines"
+version: 1.0.0
+doi: 10.5281/zenodo.17941256
+date-released: 2025-01-15
+url: "https://github.com/talents-kids/calibrated-talent-assessment"
+repository-code: "https://github.com/talents-kids/calibrated-talent-assessment"
+license: MIT
+keywords:
+  - talent discovery
+  - child development
+  - multimodal learning
+  - machine learning
+  - educational technology
+  - LightGBM
+  - calibration
+  - multi-agent systems
+  - LLM
+abstract: |
+  Early identification of children's talents remains a critical challenge in
+  personalized education. We present a multimodal AI system analyzing authentic
+  creative artifacts from 5,237 analyses across 479 children to predict talent
+  profiles across 7 domains. Classical machine learning models (LightGBM)
+  achieved ROC-AUC 0.9999 and F1-macro 0.9972 with Expected Calibration Error
+  0.0018. Our multi-agent LLM system employed 34 models from 9 providers
+  achieving near-perfect correlation (r>0.98) with meta-model aggregated ground
+  truth at $0.041 per analysis. Temporal validation demonstrated F1-macro 0.833
+  at 5.7 months and 0.742 at 11.4 months. SHAP analysis revealed interpretable
+  features aligned with educational psychology theory.
+references:
+  - type: article
+    authors:
+      - family-names: Sergeev
+        given-names: Dmitriy
+    title: "Multimodal Talent Discovery in Children Using Calibrated Baselines"
+    year: 2025
+    doi: 10.5281/zenodo.17941256
+    status: "published"
+  - type: software
+    authors:
+      - family-names: Sergeev
+        given-names: Dmitriy
+    title: "TALENT LLM: Multi-Label Talent Prediction in Children Using Fine-Tuned Large Language Models with Calibrated Baselines"
+    year: 2025
+    doi: 10.5281/zenodo.17743456
+    notes: "Complementary work focusing on LLM fine-tuning approaches for the same talent discovery system"
+contact:
+  - email: ds@talents.kids
+    name: "Dmitriy Sergeev"
+    affiliation: "Talents.Kids, TEMNIKOVA LDA"

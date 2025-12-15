@@ -1,0 +1,16 @@
+model,provider,invocations,cost_per_prediction,total_cost,percentage_usage
+Qwen/Qwen3-235B-A22B-Instruct-2507,Baseten,2379,0.012,28.548,19.8
+deepseek-ai/DeepSeek-V3-0324,Baseten,2369,0.018,42.642,19.7
+baseten/moonshotai-kimi-k2-thinking,Baseten,2340,0.047,109.980,19.4
+meta-llama/llama-4-scout-17b-16e-instruct,Groq,1608,0.002,3.216,13.4
+gemini-2.5-flash-lite-preview-09-2025,Google,1547,0.002,3.094,12.8
+gemini-2.5-flash,Google,909,0.006,5.454,7.5
+gemini-2.5-flash-preview-05-20,Google,4048,0.006,24.288,33.6
+gemini-2.5-flash-preview-04-17,Google,9,0.006,0.054,0.1
+z-ai/glm-4-32b,OpenRouter,192,0.008,1.536,1.6
+gpt-4o-mini,OpenAI,127,0.150,19.050,1.1
+grok-4-fast-non-reasoning,xAI,116,0.091,10.556,1.0
+gpt-5-mini-2025-08-07,OpenAI,106,0.200,21.200,0.9
+claude-3-haiku-20240307,Anthropic,88,0.250,22.000,0.7
+[21 additional models omitted for brevity],,,,
+TOTAL,9 providers,12041,0.041,213.34,100.0

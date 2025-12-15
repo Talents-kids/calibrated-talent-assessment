@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+!notebooks/*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+!figures/*.pdf
+!Multimodal_Talent_Discovery.pdf
+
+# LaTeX source (PDF is in root)
+manuscript/
+
+# Results and models
+results/*.pkl
+results/*.txt
+results/*.h5
+results/*.pth
+*.model
+*.ckpt
+
+# Data (only anonymized samples allowed)
+data/full_dataset/
+data/raw/
+data/*.csv
+!data/llm_metadata.csv
+!data/llm_accuracy.csv
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# API keys
+.env
+.env.local
+secrets/
+*.key
+
+# OS generated
+Thumbs.db

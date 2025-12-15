@@ -1,0 +1,62 @@
+{
+  "dataset_overview": {
+    "total_analyses": 5173,
+    "unique_children": 479,
+    "age_range": [6, 18],
+    "date_range": "2023-01-01 to 2024-12-31",
+    "modalities": 8,
+    "talent_domains": 7,
+    "fine_grained_categories": 306
+  },
+  "modality_distribution": {
+    "text": {"count": 2628, "percentage": 50.8},
+    "image": {"count": 1562, "percentage": 30.2},
+    "musical": {"count": 912, "percentage": 17.6},
+    "audio": {"count": 48, "percentage": 0.9},
+    "video": {"count": 5, "percentage": 0.1},
+    "pdf": {"count": 5, "percentage": 0.1},
+    "json": {"count": 8, "percentage": 0.2},
+    "docx": {"count": 5, "percentage": 0.1}
+  },
+  "domain_distribution": {
+    "Academic": {"count": 2131, "percentage": 41.2},
+    "Artistic": {"count": 1673, "percentage": 32.3},
+    "Athletic": {"count": 522, "percentage": 10.1},
+    "Leadership": {"count": 419, "percentage": 8.1},
+    "Service": {"count": 269, "percentage": 5.2},
+    "Technology": {"count": 114, "percentage": 2.2},
+    "Other": {"count": 45, "percentage": 0.9}
+  },
+  "temporal_data": {
+    "children_with_2_sessions": 70,
+    "children_with_3_sessions": 127,
+    "mean_interval_s1_s2_days": 173,
+    "mean_interval_s1_s3_days": 346
+  },
+  "demographics": {
+    "age_distribution": {
+      "6-9": 156,
+      "10-13": 198,
+      "14-18": 125
+    },
+    "gender": {
+      "specified": 19,
+      "unspecified": 460,
+      "note": "96% participants opted out of gender reporting"
+    },
+    "ses_stratification": "Not available (GDPR compliance)"
+  },
+  "train_val_test_split": {
+    "train": {"analyses": 3621, "children": 335, "percentage": 70.0},
+    "validation": {"analyses": 776, "children": 72, "percentage": 15.0},
+    "test": {"analyses": 682, "children": 62, "percentage": 15.0},
+    "stratification": "Stratified by domain to maintain class balance"
+  },
+  "anonymization": {
+    "method": "SHA256 hashing",
+    "identifiers_removed": ["child_id", "parent_email", "school_name", "location"],
+    "child_hash_format": "SHA256 of (child_id + salt)",
+    "public_sample_size": 100,
+    "full_dataset_availability": "Upon request with IRB approval"
+  }
+}
