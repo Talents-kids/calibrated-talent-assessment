@@ -239,6 +239,7 @@ This dataset and code are released for research purposes only.
 - **Author**: Dmitriy Sergeev
 - **Organization**: Talents.Kids, TEMNIKOVA LDA
 - **ORCID**: 0009-0008-2958-4595
+- **Contact**: https://www.talents.kids/contact
 
 ## 🙏 Acknowledgments
 

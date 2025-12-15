@@ -52,6 +52,6 @@ references:
     doi: 10.5281/zenodo.17743456
     notes: "Complementary work focusing on LLM fine-tuning approaches for the same talent discovery system"
 contact:
-  - email: ds@talents.kids
-    name: "Dmitriy Sergeev"
+  - name: "Dmitriy Sergeev"
     affiliation: "Talents.Kids, TEMNIKOVA LDA"
+    website: "https://www.talents.kids/contact"
